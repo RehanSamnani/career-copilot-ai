@@ -10,14 +10,14 @@ const authMiddleware=require('../middleware/auth.middleware.js')
  * @desc Register a new user
  * @access Public
  */
-authRouter.post('/register', authController.registerUserController);
+authRouter.post('/api/auth/register', authController.registerUserController);
 
 /**
  * @route POST /api/auth/login
  * @desc Login a user
  * @access Public
  */
-authRouter.post('/login', authController.loginUserController);
+authRouter.post('/api/auth/login', authController.loginUserController);
 
 
 /**

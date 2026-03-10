@@ -17,6 +17,7 @@ import { useState } from 'react'
 import { RouterProvider } from 'react-router'
 import { router } from './app.routes.jsx'
 import './style.scss'
+import './style/button.scss'
 
 function App() {
   const [count, setCount] = useState(0)
